@@ -1,0 +1,17 @@
+@import "../../../Colors.scss";
+
+.Navigation {
+
+    a {
+        text-decoration: none;
+        color:black;
+        margin-left:25px;
+
+        &:last-child{
+            color:#fff;
+            background:$main;
+            padding:10px 20px;
+            border-radius: 10px;
+        }
+    }
+}

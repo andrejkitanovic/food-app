@@ -1,0 +1,16 @@
+@import '../../../Colors.scss';
+
+header {
+    display: flex;
+    padding:0 10%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffaf2;
+
+    .logo{
+        font-weight: bold;
+        color:$main;
+        font-size: 23px;
+    }
+}
