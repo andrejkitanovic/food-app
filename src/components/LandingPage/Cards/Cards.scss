@@ -1,0 +1,83 @@
+.Cards {
+    padding: 80px 15%;
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 380px;
+
+    .card {
+      width: 35%;
+      height: 100%;
+      border: 1px solid #c5c5c5;
+      margin: 0 50px;
+      text-align: center;
+      padding: 0 20px;
+      border-radius: 5px;
+      transition: .2s linear;
+      cursor: pointer;
+
+      .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        width: 70px;
+        height: 70px;
+        border: 2px solid #afafb0;
+        margin: 30px auto;
+        border-radius: 50%;
+
+        svg{
+            fill: #afafb0;
+            width: 35px;
+            height: 35px;
+        }
+      }
+
+      h4 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 20px;
+        color: #8a8a8a;
+      }
+
+      &.active {
+        border: 1px solid transparent;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        transform: scale(1.1);
+        .icon {
+          border: 2px solid white;
+          background: linear-gradient(#f88602, #ffce9a);
+
+          svg{
+              fill:#fff;
+          }
+        }
+      }
+    }
+  }
+
+  .pagination{
+      margin-top: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .bullet{
+          width: 20px;
+          height: 20px;
+          background:#d6dbde;
+          border-radius: 50%;
+          margin:0 20px;
+
+          &.active {
+              background:#f88602;
+              box-shadow: 0px 0px 10px 5px #ffce9a;
+          }
+      }
+  }
+}

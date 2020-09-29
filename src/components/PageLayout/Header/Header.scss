@@ -1,12 +1,16 @@
 @import '../../../Colors.scss';
 
 header {
+    position: fixed;
+    width: 80%;
     display: flex;
     padding:0 10%;
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    background: #fffaf2;
+    background: $header;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 
     .logo{
         font-weight: bold;

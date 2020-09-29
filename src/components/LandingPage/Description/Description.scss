@@ -1,0 +1,36 @@
+.Description {
+  display: grid;
+  margin: 100px 0;
+  height: 70vh;
+  background: #fcfcff;
+  grid-template-columns: 1fr 2fr;
+
+  .gradient {
+    position: relative;
+    background: linear-gradient(90deg, #f88602, #ffce9a);
+
+    img {
+      position: absolute;
+      height: 100%;
+      right: -30%;
+    }
+  }
+
+  .text {
+    padding: 5% 0;
+    margin-left: 20%;
+
+    h3 {
+      font-size: 50px;
+      margin-right: 50%;
+      text-transform: capitalize;
+    }
+
+    p {
+      margin-right: 15%;
+      font-size: 30px;
+      color: #8a8a8a;
+      line-height: 50px;
+    }
+  }
+}

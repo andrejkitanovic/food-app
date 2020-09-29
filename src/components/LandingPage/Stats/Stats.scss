@@ -1,0 +1,38 @@
+@import '../../../Colors.scss';
+
+.Stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background:#fcfcff;
+
+
+    .stat{
+        width: 250px;
+        height: 85%;
+        background:#fff;
+        margin:0 50px;
+        text-align: center;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        color:#545454;
+        transition: .3s;
+        cursor: pointer;
+        border-radius: 10px;
+        
+        h4{
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        &:hover {
+            background:$main;
+            color:#fff;
+            transform: scale(1.05);
+        }
+    }
+}
