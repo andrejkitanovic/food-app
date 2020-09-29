@@ -1,0 +1,45 @@
+.Reviews {
+  position: relative;
+  text-align: center;
+  height: 1200px;
+  background: #fcfcff;
+  padding: 20px 0;
+
+  p {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .arrow-left {
+    position: absolute;
+    background: url("../../../assets/LandingPage/Arrow.png") no-repeat center;
+    background-size: cover;
+    width: 92px;
+    height: 90px;
+    left: 80px;
+    top: 600px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    z-index: 100;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+
+  .arrow-right {
+    position: absolute;
+    background: url("../../../assets/LandingPage/Arrow.png") no-repeat center;
+    background-size: cover;
+    width: 92px;
+    height: 90px;
+    right: 80px;
+    top: 600px;
+    transform: translateY(-50%) rotate(180deg);
+    z-index: 100;
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-50%) rotate(180deg) scale(1.2);
+    }
+  }
+}

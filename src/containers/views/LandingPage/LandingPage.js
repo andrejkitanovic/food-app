@@ -6,11 +6,13 @@ import AboutUs from '../../../components/LandingPage/AboutUs/AboutUs'
 import Cards from '../../../components/LandingPage/Cards/Cards'
 import Description from '../../../components/LandingPage/Description/Description'
 import Menu from '../../../components/LandingPage/Menu/Menu'
+import Reviews from '../../../components/LandingPage/Reviews/Reviews'
 
 let changeActiveCard = null
 
 const LandingPage = props => {
     const [activeCard,setActiveCard] = useState(1)
+    const [activeReview,setActiveReview] = useState(1)
 
     useEffect(() => {
         changeActiveCard = setTimeout(() => {
@@ -26,6 +28,10 @@ const LandingPage = props => {
         setActiveCard(property)
     }
 
+    const changeActiveReviewHandler = property => {
+        setActiveReview(property)
+    }
+
     return <div className="LandingPage">
         <Banner />
         <Stats />
@@ -33,6 +39,7 @@ const LandingPage = props => {
         <Cards active={activeCard} click={changeActiveCardHandler}/>
         <Description />
         <Menu />
+        <Reviews active={activeReview} click={changeActiveReviewHandler}/>
     </div>
 }
 

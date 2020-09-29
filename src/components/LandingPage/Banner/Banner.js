@@ -1,6 +1,8 @@
 import React from "react";
 import "./Banner.scss";
 
+// import {Link} from 'react-router-dom'
+
 const banner = (props) => {
   return (
     <div className="Banner"  id="home">
@@ -11,8 +13,8 @@ const banner = (props) => {
           1500s, when an unknown printer took a galley of type and scrambled
         </p>
         <div className="buttons">
-          <button>Order online</button>
-          <button>Learn More</button>
+          <a href="#order">Order online</a>
+          <a href="#about">Learn More</a>
         </div>
       </div>
     </div>

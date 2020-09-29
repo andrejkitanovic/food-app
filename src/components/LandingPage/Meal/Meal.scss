@@ -14,12 +14,13 @@
   }
 
   .description {
+    width: 100%;
     position: relative;
+    
     .name-and-price {
       display: flex;
-
       align-items: center;
-      margin-left: 20px;
+      padding: 0 60px 0 20px;
       justify-content: space-between;
 
       h4 {
@@ -28,13 +29,16 @@
       }
 
       p {
+          margin:0;
+          padding:0;
         color: $main;
         font-weight: bold;
+        font-size: 22px;
       }
     }
 
     p {
-      font-size: 20px;
+      font-size: 15px;
       margin: 0;
       margin-left: 20px;
     }
@@ -59,7 +63,7 @@
       border-radius: 50%;
       border: 10px solid white;
       opacity: 0;
-      transition: 0.1s;
+      transition: 0.3s;
       color: #fff;
       font-size: 120px;
     }

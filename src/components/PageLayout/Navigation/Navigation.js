@@ -9,8 +9,8 @@ const navigation = () => {
       <a href="#home">Home</a>
       <a href="#about">About us</a>
       <a href="#menu">Menu</a>
-      <a href="#special">House Special</a>
       <a href="#reviews">Reviews</a>
+      <a href="#special">House Special</a>
       <a href="#contact">Contact</a>
       <a href="#cart">Cart</a>
     </div>

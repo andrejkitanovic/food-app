@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Burger with Wine",
+    "price": 35,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://d3d7qmccklvqbw.cloudfront.net/wp-content/uploads/2017/05/food_meat_wine_789013.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bolognese Pasta",
+    "price": 28,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://www.errenskitchen.com/wp-content/uploads/2015/02/Quick-Easy-Spaghetti-Bolognese2-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Healthy Beef",
+    "price": 48,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX6433762.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fried Ice Cream",
+    "price": 15,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://lh3.googleusercontent.com/proxy/HLz0mV6LFhynklyR5oRBfDog1qVDYARLAyvMLHSGuk6I4vZA9H2Et_eKh1gbuvYZ2VcEreGH1Y9oKZ1IZZWMbDqt9S2z3q_V4A1QoJgt0oP4xpS3bJHflKBKQNMpP8o"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Tortilla Soup",
+    "price": 8,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://www.fifteenspatulas.com/wp-content/uploads/2018/09/Chicken-Tortilla-Soup-Fifteen-Spatulas-11-640x427.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chicken and Rice",
+    "price": 19,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "img": "https://www.simplyrecipes.com/wp-content/uploads/2014/06/Chicken-Rice-Casserole-LEAD-2.jpg"
+  }
+]
