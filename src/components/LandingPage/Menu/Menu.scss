@@ -1,0 +1,47 @@
+@import '../../../Colors.scss';
+
+.Menu {
+    max-width: 1400px;
+    margin:6% auto;
+
+    h3{
+        font-size: 50px;
+        text-transform: capitalize;
+        margin:50px 0;
+    }
+
+    p{
+        font-size: 25px;
+        padding-right: 40%;
+    }
+
+    .categories {
+        margin:50px 0;
+        button{
+            width: 130px;
+            height: 40px;
+            background:white;
+            color:rgb(56, 56, 56);
+            border:1px solid rgb(56, 56, 56);;
+            margin-right: 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+
+            &.active{
+                background:$main;
+                color:#fff;
+                border:1px solid $main;
+            }
+        }
+    }
+
+    .meals {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+    }
+
+}

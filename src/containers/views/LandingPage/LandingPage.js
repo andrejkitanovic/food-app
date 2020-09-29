@@ -5,6 +5,7 @@ import Stats from '../../../components/LandingPage/Stats/Stats'
 import AboutUs from '../../../components/LandingPage/AboutUs/AboutUs'
 import Cards from '../../../components/LandingPage/Cards/Cards'
 import Description from '../../../components/LandingPage/Description/Description'
+import Menu from '../../../components/LandingPage/Menu/Menu'
 
 let changeActiveCard = null
 
@@ -31,6 +32,7 @@ const LandingPage = props => {
         <AboutUs />
         <Cards active={activeCard} click={changeActiveCardHandler}/>
         <Description />
+        <Menu />
     </div>
 }
 
