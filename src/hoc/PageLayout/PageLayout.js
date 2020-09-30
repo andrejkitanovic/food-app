@@ -1,4 +1,5 @@
 import React from 'react'
+import './PageLayout.scss'
 
 import Header from '../../components/PageLayout/Header/Header'
 import Footer from '../../components/PageLayout/Footer/Footer'

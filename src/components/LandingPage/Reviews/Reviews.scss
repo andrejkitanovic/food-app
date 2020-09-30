@@ -20,7 +20,7 @@
     top: 600px;
     transform: translateY(-50%);
     transition: 0.3s;
-    z-index: 100;
+    z-index: 20;
     &:hover {
       transform: translateY(-50%) scale(1.2);
     }
@@ -35,7 +35,7 @@
     right: 80px;
     top: 600px;
     transform: translateY(-50%) rotate(180deg);
-    z-index: 100;
+    z-index: 20;
     transition: 0.3s;
 
     &:hover {

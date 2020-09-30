@@ -13,7 +13,7 @@ const banner = (props) => {
           1500s, when an unknown printer took a galley of type and scrambled
         </p>
         <div className="buttons">
-          <a href="#order">Order online</a>
+          <a href="#menu">Order online</a>
           <a href="#about">Learn More</a>
         </div>
       </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import './Meal.scss'
+import './SpecialMeal.scss'
 
-const meal = (props) => {
+const specialMeal = (props) => {
   return (
-    <div className="Meal">
+    <div className="SpecialMeal">
       <img src={props.img} alt={props.name} />
       <div className="description">
         <div className="name-and-price">
@@ -12,11 +12,8 @@ const meal = (props) => {
         </div>
         <p>{props.description.length > 60 ? props.description.slice(0,60) + "..." : props.description}</p>
       </div>
-      <div className="add">
-          <button>+</button>
-      </div>
     </div>
   );
 };
 
-export default meal;
+export default specialMeal;

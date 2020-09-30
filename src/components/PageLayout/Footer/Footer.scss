@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60vh;
+    min-height: 500px;
+    background:url('../../../assets/LandingPage/Footer.png') top right;
+    background-size: cover;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    
+    span{
+        color:#fff;
+        font-size: 20px;
+        margin-bottom: 15px;
+        border-top:1px solid #fff;
+        width: 90%;
+        text-align: center;
+        padding-top: 20px;
+    }
+}

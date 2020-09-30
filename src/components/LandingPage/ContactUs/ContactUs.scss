@@ -1,0 +1,43 @@
+@import "../../../Colors.scss";
+
+.ContactUs{
+    padding:100px 0;
+    height: 90vh;
+    background:url('../../../assets/LandingPage/Contact.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 850px;
+
+    form {
+        width: 600px;
+        height: auto;
+        margin:100px auto;
+        border:3px solid $main;
+        padding:20px 50px;
+        border-radius: 15px;
+        text-align: left;
+        background:rgba(255,255,255,0.6);
+   
+
+        h4{
+            text-align: center;
+            font-size: 30px;
+            opacity: 0.7;
+        }
+
+        label{
+            display: block;
+        }
+        
+        button{
+            display: block;
+            width: 200px;
+            height: 50px;
+            background:$main;
+            margin:20px auto;
+            color:#fff;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+    }
+}

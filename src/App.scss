@@ -1,18 +1,49 @@
-h3{
-    font-size: 50px;
-    text-transform: capitalize;
+h3 {
+  font-size: 50px;
+  text-transform: capitalize;
 }
 
 p {
-    font-size: 25px;
-    color: #8a8a8a;
+  font-size: 25px;
+  color: #8a8a8a;
+}
+
+label {
+  font-size: 22px;
+  display: block;
+  color: #8a8a8a;
+}
+
+button,
+input,
+textarea {
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+textarea {
+  width: calc(100% - 20px);
+  border: 1px solid rgba(56, 56, 56,0.5);
+  border-radius: 3px;
+  margin:15px 0;
+  padding:0 20px;
+  font-size: 18px;
+}
+
+input{
+    height: 40px;
+}
+
+textarea{
+    height: 200px;
+    padding-top: 10px;
 }
 
 button {
-    background:none;
-    border:none;
-    cursor: pointer;
-    &:focus {
-        outline: none;
-    }
+  background: none;
+  cursor: pointer;
 }
